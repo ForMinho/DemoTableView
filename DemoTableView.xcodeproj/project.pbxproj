@@ -21,6 +21,7 @@
 		CE0DEA5319760A560073F2CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0DEA3519760A560073F2CB /* UIKit.framework */; };
 		CE0DEA5B19760A560073F2CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE0DEA5919760A560073F2CB /* InfoPlist.strings */; };
 		CE0DEA5D19760A560073F2CB /* DemoTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0DEA5C19760A560073F2CB /* DemoTableViewTests.m */; };
+		CE0DEA6819760A730073F2CB /* ScrollowViewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0DEA6719760A730073F2CB /* ScrollowViewTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		CE0DEA5819760A560073F2CB /* DemoTableViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DemoTableViewTests-Info.plist"; sourceTree = "<group>"; };
 		CE0DEA5A19760A560073F2CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CE0DEA5C19760A560073F2CB /* DemoTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoTableViewTests.m; sourceTree = "<group>"; };
+		CE0DEA6619760A730073F2CB /* ScrollowViewTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollowViewTableViewCell.h; sourceTree = "<group>"; };
+		CE0DEA6719760A730073F2CB /* ScrollowViewTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollowViewTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				CE0DEA4319760A560073F2CB /* Main.storyboard */,
 				CE0DEA4619760A560073F2CB /* ViewController.h */,
 				CE0DEA4719760A560073F2CB /* ViewController.m */,
+				CE0DEA6619760A730073F2CB /* ScrollowViewTableViewCell.h */,
+				CE0DEA6719760A730073F2CB /* ScrollowViewTableViewCell.m */,
 				CE0DEA4919760A560073F2CB /* Images.xcassets */,
 				CE0DEA3819760A560073F2CB /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE0DEA4819760A560073F2CB /* ViewController.m in Sources */,
+				CE0DEA6819760A730073F2CB /* ScrollowViewTableViewCell.m in Sources */,
 				CE0DEA4219760A560073F2CB /* AppDelegate.m in Sources */,
 				CE0DEA3E19760A560073F2CB /* main.m in Sources */,
 			);
@@ -376,10 +382,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: hui chen (BS8VB58T3M)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DemoTableView/DemoTableView-Prefix.pch";
 				INFOPLIST_FILE = "DemoTableView/DemoTableView-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "BEFDAC15-D5DE-4A94-BB1C-30DA91B72F3B";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -389,10 +397,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: hui chen (BS8VB58T3M)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DemoTableView/DemoTableView-Prefix.pch";
 				INFOPLIST_FILE = "DemoTableView/DemoTableView-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "BEFDAC15-D5DE-4A94-BB1C-30DA91B72F3B";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -456,6 +466,7 @@
 				CE0DEA6219760A560073F2CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE0DEA6319760A560073F2CB /* Build configuration list for PBXNativeTarget "DemoTableViewTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +475,7 @@
 				CE0DEA6519760A560073F2CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

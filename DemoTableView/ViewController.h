@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
+#import "ScrollowViewTableViewCell.h"
+@interface ViewController : UIViewController<UITableViewDataSource,UITableViewDelegate,ScrollowTableCellDelegate>
+@property (strong,nonatomic) UITableView *tableView;
 
 @end
